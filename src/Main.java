@@ -4,7 +4,7 @@ public class Main {
         String firstName = "Ivan";
         String middleName = "Ivanovich";
         String lastName = "Ivanov ";
-        String fullName = firstName + " " + middleName + " " + lastName;
+        String fullName = lastName + " " + firstName + " " + middleName;
         //Задание 2
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
         //Задание 3
